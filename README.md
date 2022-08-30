@@ -2,4 +2,5 @@
 
 #Sample Output
 
-![tictac](https://user-images.githubusercontent.com/107808348/187464748-ae80dc66-0764-4325-b165-a2b56612e8ce.jpg)
+
+![rsz_whatsapp_image_2022-08-30_at_74455_pm](https://user-images.githubusercontent.com/107808348/187465443-42e83aa1-8749-4799-ab23-d225471301f4.jpg)
