@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFC107"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:paddingBottom="150dp">
+
+      <TextView
+         android:id="@+id/text1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="WELCOME TO TIC-TAC-TOE"
+          android:textSize="25dp"
+          android:textStyle="bold">
+
+      </TextView>
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <GridLayout
+            android:layout_width="296dp"
+            android:layout_height="260dp"
+            android:columnCount="3"
+            android:rowCount="3">
+
+            <Button
+                android:id="@+id/btn1"
+                android:onClick="Check"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:onClick="Check"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:onClick="Check"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </GridLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn10"
+            android:text="restart">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
